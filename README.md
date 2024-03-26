@@ -1,5 +1,3 @@
-
-
 <p align="center">
   <img width="380" src="/obesity.jpg" alt="obesity"/>
 </p>
@@ -10,6 +8,8 @@
 
 This repository showcases my work for the Kaggle competition S04E02, focusing on Multi-Class Prediction of Obesity Risk. 
 The goal of this competition was to use various factors to predict obesity risk in individuals, which is related to cardiovascular disease.
+
+You can see my complete work [HERE](https://www.kaggle.com/code/carloeduardo/multi-class-prediction-with-pipeline-method/notebook).
 
 
 ### About Dataset
@@ -49,5 +49,3 @@ The Best Parameters for the best model were:
 | randomforestclassifier__min_samples_leaf | 1     |
 | randomforestclassifier__min_samples_split| 10    |
 | randomforestclassifier__n_estimators    | 300   |
-
-                                           
