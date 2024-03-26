@@ -1,4 +1,10 @@
-![Obesidad](obesity.png)
+
+
+<p align="center">
+  <img width="380" src="/obesity.jpg" alt="obesity"/>
+</p>
+
+---
 
 # Multi-Class Prediction of Obesity Risk
 
@@ -10,6 +16,8 @@ The goal of this competition was to use various factors to predict obesity risk 
 
 The data consist of the estimation of obesity levels in people from the countries of Mexico, Peru and Colombia, with ages between 14 and 61 and diverse eating habits and physical condition , data was collected using a web platform with a survey where anonymous users answered each question, then the information was processed obtaining 17 attributes and 2111 records.
 The attributes related with eating habits are: Frequent consumption of high caloric food (FAVC), Frequency of consumption of vegetables (FCVC), Number of main meals (NCP), Consumption of food between meals (CAEC), Consumption of water daily (CH20), and Consumption of alcohol (CALC). The attributes related with the physical condition are: Calories consumption monitoring (SCC), Physical activity frequency (FAF), Time using technology devices (TUE), Transportation used (MTRANS). You can know more about the dataset in this [link](https://www.kaggle.com/datasets/aravindpcoder/obesity-or-cvd-risk-classifyregressorcluster)
+
+--- 
 
 ## Explanation of the main function
 
@@ -23,17 +31,23 @@ Finally, the `get_best_model` function, after fitting GridSearchCV for both SVC 
 
 By using this function, the goal is to efficiently search for the best model and its hyperparameters without manually trying out different combinations, thus saving time and effort in the model development process.
 
+--- 
 
 ## The best Model 
 
 The best model was Random Forest with the next accuracy and paramenters:
 
-The Best Score for the best model was: 0.896 
+* The Best Score for the best model was: **0.896** 
 
-The Best Parameters for the best model were: 
-                                           Best Parameters
-randomforestclassifier__bootstrap                   False
-randomforestclassifier__max_depth                      20
-randomforestclassifier__min_samples_leaf                1
-randomforestclassifier__min_samples_split              10
-randomforestclassifier__n_estimators                  300
+The Best Parameters for the best model were:
+
+
+| Parameters                             | Value |
+|-----------------------------------------|-------|
+| randomforestclassifier__bootstrap       | False |
+| randomforestclassifier__max_depth      | 20    |
+| randomforestclassifier__min_samples_leaf | 1     |
+| randomforestclassifier__min_samples_split| 10    |
+| randomforestclassifier__n_estimators    | 300   |
+
+                                           
